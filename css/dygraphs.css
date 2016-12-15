@@ -1,0 +1,59 @@
+#dygraphstatistics .dygraph-label, #dygraphregression .dygraph-label, #dygraphhistory .dygraph-label, #dygraphdata .dygraph-label{
+	/* This applies to the title, x-axis label and y-axis label */
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#dygraphstatistics .dygraph-title, #dygraphregression .dygraph-title, #dygraphhistory .dygraph-title, #dygraphdata .dygraph-title{
+	/* This rule only applies to the chart title */
+	font-size: 18px;
+	font-weight: bold;
+	/*text-shadow: gray 2px 2px 2px;*/  /* color, delta-x, delta-y, blur radius */
+}
+			
+#dygraphstatistics .dygraph-ylabel, #dygraphregression .dygraph-ylabel, #dygraphhistory .dygraph-ylabel, #dygraphdata .dygraph-ylabel{
+	/* This rule only applies to the y-axis label */
+	font-size: 18px;
+	font-weight: bold;
+	padding: -10px;
+	/*text-shadow: gray -2px 2px 2px;*/  /* (offsets are in a rotated frame) */
+}
+
+#dygraphstatistics .dygraph-xlabel, #dygraphregression .dygraph-xlabel, #dygraphhistory .dygraph-xlabel, #dygraphdata .dygraph-xlabel{
+	/* This rule only applies to the y-axis label */
+	font-size: 18px;
+	font-weight: bold;
+	padding: 5px;
+	/*text-shadow: gray -2px 2px 2px;*/  /* (offsets are in a rotated frame) */
+}
+
+#dygraphstatistics .dygraph-axis-label-x{
+	/* This rule only applies to the y-axis label */
+	font-size: 12px;
+	font-weight: bold;
+	padding: 5px;
+	/*text-shadow: gray -2px 2px 2px;*/  /* (offsets are in a rotated frame) */
+}
+
+#dygraphregression .dygraph-legend, #dygraphhistory .dygraph-legend, #dygraphdata .dygraph-legend{
+	/* This rule only applies to the y-axis label */
+	font-size: 18px;
+	font-weight: bold;
+	/*padding: 60px;
+	/*text-shadow: gray -2px 2px 2px;*/  /* (offsets are in a rotated frame) */
+}
+
+#dygraphstatistics .dygraph-legend{
+	/* This rule only applies to the y-axis label */
+	font-size: 18px;
+	font-weight: bold;
+	/*left: 85px !important;*/
+	top: 5px !important;
+	/*padding: 60px;
+	/*text-shadow: gray -2px 2px 2px;*/  /* (offsets are in a rotated frame) */
+}
+	
+.chart {
+	/*border: 1px dashed black;*/
+	margin: 10px;
+	padding: 5px;
+}

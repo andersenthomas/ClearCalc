@@ -1,0 +1,333 @@
+/*
+    style.css
+*/
+
+.clear{
+    clear: both;
+}
+
+.error_message{
+	padding:30px;
+}
+
+.container{
+    border: 0px solid red;
+	max-width:90%;/*950px*/
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.copyright{
+	background:#0C5DA5;
+	padding:5px;
+	color:#FFFFFF;
+	font-size:16px;
+	text-align:center;
+	font-weight:bold;
+	height:30px;
+}
+
+.body_text{
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:auto;
+}
+
+h4.sublink{
+	/*margin-left:25px;*/
+	font-weight:none;
+	font-size:10pt;
+}
+
+dl{
+	margin-left:auto;
+	text-indent:30px;
+}
+
+dd{
+	padding:5px;
+	margin-bottom:10px;
+}
+
+dt{
+	font-weight:bold;
+}
+
+.formula{
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:auto;
+	font-style:italic;
+	text-indent:40px;
+}
+
+.fraction{
+	display:inline-block;
+	vertical-align:middle;
+	margin: 0 0.2em 0.4ex;
+	text-align: center;
+}
+
+.fraction > span {
+	display:block;
+	padding-top: 0.15em;
+}
+
+.fraction span.fdn{
+	border-top:thin solid black;
+}
+
+.fraction span.bar{
+	display:none;
+}
+
+.indent{
+	text-indent:40px;
+}
+
+.datacontainer{
+    width:75%;
+    max-width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+
+table.data {
+	margin-right:20px;
+	margin-left:20px;
+	margin-bottom:20px;
+	margin-top: 20px;
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+table.data tr th {
+	padding: 5px;
+	border: 2px solid black;
+	text-align: left;
+}
+
+table.data td {
+	padding: 5px;
+	border-width: 1px;
+	border-style: inset;
+	border-color: black;
+}
+
+table.edit {
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin-right:auto;
+	margin-left:auto;
+	width:60%; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+table.edit tr th {
+	padding: 5px;
+	border: 2px solid black;
+	text-align: left;
+}
+
+table.edit td {
+	padding: 5px;
+	border-width: 1px;
+	border-style: inset;
+	border-color: black;
+}
+
+table.reference {
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin-left:40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+table.reference tr th {
+	padding: 5px;
+	border: 2px solid black;
+	text-align: left;
+}
+
+table.reference td {
+	padding: 5px;
+	border-width: 1px;
+	border-style: inset;
+	border-color: black;
+	text-align:center;
+}
+
+table.sub_worksheet {
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top: 10px;
+	width:100%;
+	margin-bottom: 10px;
+}
+
+table.sub_worksheet_half {
+    border: 2px solid black;
+	border-collapse: collapse;
+	margin-right:auto;
+	margin-left:auto;
+	width:49.5%;
+	margin-bottom: 10px;
+}
+
+table.sub_worksheet_half td {
+	padding: 5px;
+	border-width: 1px;
+	border-style: inset;
+	border-color: black;
+}
+
+table.sub_worksheet td {
+	padding: 5px;
+	border-width: 1px;
+	border-style: inset;
+	border-color: black;
+}
+
+table.sub_worksheet_data {
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top: 10px;
+	width:100%;
+	margin-bottom: 10px;
+}
+
+td.strikethrough {
+	text-decoration: line-through;
+	}
+
+table.sub_worksheet_data td {
+	padding: 5px;
+	border-width: 1px;
+	border-style: inset;
+	border-color: black;
+	text-align: center;
+}
+
+table.submit_table {
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width:100%;
+}
+
+table.submit_table td {
+	padding: 10px;
+	border-width: 1px;
+	border-style: inset;
+	border-color: black;
+	text-align:right;
+}
+
+table.standards {
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width:100%;
+}
+
+table.standards td {
+	padding: 10px;
+	border-width: 1px;
+	border-style: inset;
+	border-color: black;
+	text-align:center;
+}
+
+table.bookings, table.bloodbookings {
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin-right:auto;
+	margin-left:20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width:75%;
+}
+
+table.bookings td, table.bloodbookings td, table.bloodbookings th {
+	padding: 10px;
+	border-width: 1px;
+	border-style: inset;
+	border-color: black;
+	text-align:left;
+}
+
+.caption{
+	background:#0C5DA5; 
+	padding: 10px; 
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size: 32px;
+}
+
+.logo{
+	position:relative;
+	margin-right:0px;
+	float:right;
+	height:40px;
+	color:#FFFFFF;
+}
+
+.header_utilities{
+	position:relative;
+	margin-right: 20px;
+	margin-top:-7px;
+	float:right;
+	font-size:16px;
+}
+
+a.header_links:link,a.header_links:visited{
+	color:#FFFFFF;
+}
+
+a.header_links:hover{
+	text-decoration:underline;
+}
+
+a:link,a:visited{
+	color:black;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#0C5DA5;
+	text-decoration:underline;
+}
+
+a.txtlink:link,a.txtlink:visited{
+	color:#008000;
+	text-decoration:none;
+}
+
+a.txtlink:hover{
+	color:#008000;
+	text-decoration:underline;
+}
+
+.GFR-plot{
+	position:relative;
+	width:640; 
+	height:480;
+}

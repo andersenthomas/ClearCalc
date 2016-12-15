@@ -1,0 +1,108 @@
+
+/*
+
+    print.css
+
+*/
+
+.clear{
+    clear: both;
+}
+
+.logo, .caption, .copyright, a.history, input.button, .error_message {
+	display:none;
+	}
+
+body{
+	background: white;
+	margin-top: -10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+
+	float: none !important;
+	font-size: 10pt;
+	}
+	
+table{
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	width: 95%;
+	page-break-inside: avoid;
+	}
+
+table.bookings{
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+table.bloodbookings{
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-right: auto;
+	margin-left: auto;
+	page-break-after: always;
+	}
+
+table.bookings td, table.bloodbookings td, table.bloodbookings th {
+	padding: 10px;
+	text-align: left;
+	}
+
+table.sub_worksheet_half{
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	float: none !important;
+	}
+
+/*	
+table.sub_worksheet_data{
+	page-break-before:always;
+	}
+*/
+
+table.submit_table{
+	display:none;
+	}
+	
+td, tr{
+	border: 1px solid black;
+	padding: 2px;
+	}
+	
+td.strikethrough {
+	text-decoration: line-through;
+	}
+
+input{
+	color: black;
+	border: none;
+
+}
+
+/*
+select{
+	color: black;
+	border: none;
+	font-size:10pt;
+	/*display:none;*/
+}
+
+
+.GFR-plot{
+	margin-right:auto;
+	margin-left:auto;
+	/*position:relative;*/,
+	width:75; 
+	height:300;
+}
