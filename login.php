@@ -4,11 +4,20 @@ require('common_functions.php');
 
 session_start();
 
-$password = hash("sha256", "password");
-$username = 'user';
+$password = hash("sha256", "clearance");
+$username = 'clearance';
 
+if (isset($_POST['username']) || isset($_POST['username']))
+{
 $password_user = hash("sha256", $_POST['password']);
 $username_user = $_POST['username'];
+}
+
+else
+{
+  $password_user = NULL;
+  $username_user = NULL;
+}
 
 echo(html_header());
 
@@ -19,19 +28,19 @@ if(isset($_POST['submit'])){
         // Set session variable
         $_SESSION['LOGGED_IN'] = True;
         $_SESSION['LAST_ACTIVITY'] = time();
-        
-        // Redirect to index page 
+
+        // Redirect to index page
         header("Location: index.php");
         exit;
- 
+
      } else {
         //Wrong username and password
         echo('<div class="body_text">Forkert brugernavn og/eller password</div><br>');
-    
+
     }
- 
+
 }
- 
+
 ?>
 
 <div class="datacontainer">
